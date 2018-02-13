@@ -1,0 +1,115 @@
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.container {
+  margin: 0 auto;
+  width: 1200px; }
+
+button {
+  background-color: #B78B59;
+  border-radius: 15px;
+  border-style: none;
+  color: white;
+  height: 40px;
+  text-transform: uppercase;
+  width: 200px; }
+
+.pagination div {
+  border-radius: 50px;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border: 2px solid #B78B59;
+  margin: 0 10px; }
+  .pagination div:hover {
+    background-color: #B78B59; }
+
+.header {
+  background-color: black; }
+
+.navigation {
+  color: white;
+  height: 100px;
+  padding-top: 20px; }
+  .navigation img {
+    padding-right: 80px; }
+  .navigation p {
+    display: inline;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 0 5px 40px 5px;
+    text-transform: uppercase; }
+    .navigation p:hover {
+      border-bottom: 4px solid #B78B59; }
+
+.welcome {
+  background-image: url("../pictures/bg_manu.gif");
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+  position: relative; }
+
+.motto {
+  color: white;
+  font-weight: 900;
+  position: relative;
+  top: 20%;
+  text-transform: uppercase;
+  text-align: center; }
+  .motto h1 {
+    font-size: 70px; }
+
+.about-us {
+  height: 500px;
+  position: relative; }
+  .about-us .call {
+    position: relative;
+    float: right;
+    top: -40px;
+    right: -80px; }
+  .about-us h2 {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: black; }
+  .about-us .sub-title {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: grey; }
+  .about-us .row {
+    padding-top: 30px; }
+    .about-us .row p {
+      line-height: 200%;
+      padding-bottom: 30px; }
+
+.service {
+  background-color: black;
+  height: 400px; }
+  .service h2 {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: white; }
+  .service .sub-title {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: grey; }
+  .service .row {
+    color: white;
+    padding: 30px 0;
+    text-align: center; }
+    .service .row h4 {
+      font-weight: bold;
+      text-transform: uppercase; }
+    .service .row p {
+      color: grey; }
+    .service .row [class^="col"] {
+      border-left: 1px solid grey;
+      border-right: 1px solid grey; }
+
+.our-projects {
+  background-color: white; }
+
+/*# sourceMappingURL=style.css.map */
